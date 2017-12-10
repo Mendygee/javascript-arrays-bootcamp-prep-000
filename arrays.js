@@ -71,7 +71,7 @@ return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element ) {
-  array.unshift(element);
+  array.shift(element);
   return array;
 
 }
