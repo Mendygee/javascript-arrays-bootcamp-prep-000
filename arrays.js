@@ -70,8 +70,8 @@ function accessElementInArray(array, index) {
 return array[index];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.unshift();
+function destructivelyRemoveElementFromBeginningOfArray(array, element ) {
+  array.unshift(element);
   return array;
 
 }
