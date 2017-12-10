@@ -67,11 +67,11 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray(array, index) {
-return array[index]; 
+return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.pop(element);
   return array;
-  
+
 }
