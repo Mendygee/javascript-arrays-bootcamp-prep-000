@@ -47,3 +47,7 @@ function removeElementFromEndOfArray(array) {
 }
 */
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
+
+function addElementToBeginningOfArray (array){
+  array.unshift();
+}
