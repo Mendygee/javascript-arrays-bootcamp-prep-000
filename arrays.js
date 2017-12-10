@@ -61,7 +61,7 @@ function addElementToEndOfArray(array, element) {
   return [array,...element];
 }
 
-function addElementToEndOfArray(array, element) {
-  array.shift(element);
-  return array;
-}
+// function addElementToEndOfArray(array, element) {
+//   array.shift(element);
+//   return array;
+// }
