@@ -53,5 +53,6 @@ function addElementToBeginningOfArray (array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return array.unshift;
+  array.unshift(element);
+  return array;
 }
