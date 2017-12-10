@@ -71,7 +71,7 @@ return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.pop(element);
+  array.pop();
   return array;
 
 }
